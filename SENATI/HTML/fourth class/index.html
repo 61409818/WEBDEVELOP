@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | clase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Formulario</h1>
+    </center>
+    <form action="">
+        <div class="datos">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id = "nombres" placeholder="Ingrese sus nombres">
+        </div>
+        <div class="datos">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id = "apellidos" placeholder="Ingrese sus apellidos">
+        </div>
+        <div class="datos">
+            <label for="carreras">Carrera: </label>
+            <input type="text" id ="carreras" list="Carreras" placeholder="Elija su carrera">
+            <datalist id="Carreras">
+                <option value="Ingenieria de software con ia">
+                <option value="Ciberseguridad">
+                <option value="Ingenieria Industrial">
+                <option value="Desarrollo de Videojuegos">
+                <option value="Hacking Etico">
+            </datalist>
+        </div>
+        <div>
+            <button onclick="obtener_localStorage()">Guardar</button>
+            <button onclick="mostrar_localStorage()">Obtener data</button>
+        </div>
+    </form>
+</body>
+</html>
