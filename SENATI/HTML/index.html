@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Operacion Basicas</h1>
+    </center>
+    <hr>
+    <table border="1" style="width: 100%;">
+        <tr>
+            <td>Numero 1: </td>
+            <td><input type="text" id="numero1" placeholder="Ingrese el primer numero"></td>
+        </tr>
+        <tr>
+            <td>Numero 2: </td>
+            <td><input type="text" id="numero2" placeholder="Ingrese el segundo numero"></td>
+        </tr>
+        <tr>
+            <td>
+                Operación
+            </td>
+            <td>
+                <select name="opciones" id="opciones">
+                    <option value="">Choose an option</option>
+                    <option value="sumar">Suma</option>
+                    <option value="restar">Resta</option>
+                    <option value="multiplicar">Multiplicación</option>
+                    <option value="dividir">División</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>
+                    <button onclick="calcular2()">
+                        Calcular
+                    </button>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
