@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: red;
+}
+
+h1{
+    color: #fff;
+    margin: 30px;
+    font-size: 50px;
+}
+
+div{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#cantidad{
+    color: #fff;
+}
+
+button{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(229, 141, 41);
+    color: #ccc;
+    padding: 16px;
+    margin: 10px
+}
+
+input{
+    font-size: 20px;
+}
+
+p{
+    color: #fff;
+    font-size: 30px;
+    margin: 20px;
+}
