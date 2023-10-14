@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(320deg, #e66465, #eb92be, #f69d3c);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    width: 420px;
+    height: 675px;
+    background: linear-gradient(320deg, #9b2828, #cd5390, #de7f1a);
+    border-radius: 5px;
+}
+
+h1{
+    color: #fff;
+}
+
+p{
+    color: #ccc;
+    font-size: 20px;
+}
+
+label{
+    color: #ccc;
+    font-size: 20px;
+}
+textarea{
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

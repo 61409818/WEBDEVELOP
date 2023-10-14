@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <center>
+            <h1>Formulario Senati</h1>
+        </center>
+        <div>
+            <label>Nombre:</label>
+            <input type="text" id="name" placeholder="Ingrese su nombre">
+        </div>
+        <br>
+        <div>
+            <label>Apellidos:</label>
+            <input type="text" id="apellidos" placeholder="Ingresa tus apellidos">
+        </div>
+        <br>
+        <div>
+            <label>Carreras:</label>
+            <input id="carrera" name="carrera" list="carreras" placeholder="Ingresa tu carrera">
+            <datalist id="carreras">
+                <option value="Ingenieria de software"></option>
+                <option value="Ciberseguridad"></option>
+                <option value="Ingenieria de sistemas"></option>
+                <option value="Agricultura"></option>
+        </div>
+        <br>
+        <div>
+            <label>Dni:</label>
+            <input type="text" id="dni" placeholder="Ingresa tu dni">
+        </div>
+        <br>
+        <div>
+            <form action="../../form-result.php" method="post" target="_blank">
+
+                <p>
+              
+                  Horarios:<br>
+              
+                  <label><input type="radio" name="turnos" value="mañana"> Turno mañana</label><br>
+              
+                  <label><input type="radio" name="turnos" value="mediodia"> Turno medio día</label><br>
+              
+                  <label><input type="radio" name="turnos" value="noche"> Turno noche</label>
+              
+                </p>
+              
+              </form>
+        </div>
+        <div>
+            <p>Anuncios: <br>
+            <input type="checkbox" id="promociones">Deseo recibir información
+            <br>
+            <input type="checkbox" id="acuerdos" required>Acepta los terminos y condiciones.
+        </p>
+        </div>
+        <br>
+        <div>
+            <button id="mostrar">Guardar</button>
+        </div>
+        <br>
+        <div>
+            <center>
+                <textarea name="textArea" id="txtArea" cols="50" rows="8"></textarea>
+            </center>
+        </div>
+    </div >
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.header{
+    color: #fff;
+    font-size: 30px;
+}
+
+.contenedores-button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#valor{
+    font-size: 90px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.btn{
+    padding: 10px;
+    margin: 20px;
+    font-size: 45px;
+    border: #fff;
+    border-radius: 10px;
+}
+
+#decrementar:hover{
+    background-color: rgb(224, 67, 75);
+}
+
+#incrementar:hover{
+    background-color: rgb(70, 193, 74);
+}
+
+#resetear:hover{
+    background-color: aquamarine;
+}
