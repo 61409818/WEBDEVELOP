@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+   <div class="container">
+    <center>
+      <h1>Practica HTML</h1>
+      Limite: <input type="text" id="limite">
+      <br>
+      <br>
+      <button id="par" onclick="calcular_par()">Pares</button>
+      <button id="impar" onclick="calcular_impar()">Impares</button>
+      <button id="fibonacci" onclick="calcular_fibonacci()">Fibonacci</button><br>
+      <br>
+      <textarea name="resultado" id="resultado" cols="30" rows="10"></textarea>
+    </center>
+   </div>
 </body>
 </html>
